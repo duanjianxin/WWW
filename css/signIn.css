@@ -1,0 +1,186 @@
+.wraper-mainbav{
+	 box-shadow: 0px 2px 1px 1px #ddd;
+    height: 66px;
+    position: relative;
+}
+
+.mainbav{
+	width: 1200px;
+	height: 66px;
+	margin: 0 auto ;
+}
+.welcomeText{
+	height: 66px;
+    line-height: 66px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+    margin-left: 28px;
+    float: left;
+}
+.mainbav-ritext1{
+    float: right;
+    height: 66px;
+    line-height: 66px;
+    color: #666666;
+    font-size: 12px;
+}
+.mainbav-ritext1 a{
+	color: #6c6c6c;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mainbav-ritext1{
+	float: right;
+    height: 66px;
+    line-height: 66px;
+    color: #666666;
+    margin-right: 50px;
+    font-size: 12px;
+}
+.mainbav-ritext1 a{
+	 color: #6c6c6c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+/*主内容  开始*/
+
+.warp-signIn:after{display:block; visibility:hidden;clear:both; overflow:hidden;height:0;content:"."; }
+.warp-signIn{
+	min-height: 591px;
+	background: #F5F5F5;
+}
+.signIn{
+	width: 1200px;
+	height: 591px;
+	margin: 0 auto ;
+	/*border: 1px solid red;*/
+}
+.signIn-center-left{
+	width: 716px;
+	height: 420px;
+	margin-top: 33px;
+}
+.signIn-center-left img{
+	width: 716px;
+	height: 412px;
+	float: left;
+}
+
+
+
+
+.signIn-center-right{
+	width: 457px;
+	height: 431px;
+	margin-top: 100px;
+	background: url(../images/signIn/signin-bg.jpg) no-repeat ;
+	float: right;
+}
+
+
+.signIn-form-box{
+	width: 330px;
+	height:390px;
+	/*border: 1px solid red;*/
+	margin:30px auto;
+	display: block;
+}
+.login-k{
+	width: 330px;
+	height: 18px;
+ 	padding: 9px 0;
+ 	/*border: 1px solid red;*/
+ 	display: block;
+ 	margin-top: 60px;
+}
+.userName{
+	width: 330px;
+	height: 38px;
+	/*border: 1px solid #CCCCCC;*/
+}
+.userName input{
+	width: 290px;
+	height: 23px;
+	padding:8px 5px 8px 36px;
+	border:none;
+	background: url(../images/signIn/loginname-pic.png) no-repeat;
+	outline: none;
+	border: 1px solid #CCCCCC;
+}
+.userName input:focus {outline:#712271 Solid 1px; }
+.login-k2{
+	width: 330px;
+	height: 18px;
+ 	padding: 9px 0;
+ 	/*border: 1px solid red;*/
+ 	display: block;
+ 	/*margin-top: 30px;*/
+}
+.password {
+	width: 330px;
+	height: 38px;
+	/*border: 1px solid #CCCCCC;*/
+}
+
+.password input{
+	width: 290px;
+	height: 23px;
+	padding:8px 5px 8px 36px;
+	border:none;
+	background: url(../images/signIn/loginpass-pic.png) no-repeat;
+	outline: none;
+	border: 1px solid #CCCCCC;
+}
+.password input:focus {outline:#712271 Solid 2px; }
+.automaticLogon{
+	width: 330px;
+	height: 22px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	/*border: 1px solid red;*/
+}
+.automaticLogon input{
+	margin-top: 5px;
+}
+.logonbar{
+	width: 320px;
+	height: 40px;
+	
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.logonbar input{
+	border: none;
+	width: 320px;
+	height: 40px;
+	background: #661166;
+	border-radius: 3px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400px;
+	text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.registerbar{
+	width: 330px;
+	height: 18px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+	/*background: red;*/
+}
+.registerbar p{
+	width: 177px;
+	float: left;
+}
+.forget{
+	float: right;
+	color: #661166
+} 
+/*主内容  end*/

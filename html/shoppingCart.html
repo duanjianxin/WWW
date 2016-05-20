@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../css/master.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="../css/home-page.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="../css/commodityDetailsPage.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="../css/shopingCart.css" media="screen" title="no title" charset="utf-8">
+	<script src="../JAVAscript/jquery-1.11.1.min.js" charset="utf-8"></script>
+	<script src="../JAVAscript/jquery.cookie.js" charset="utf-8"></script>
+	<script src="../JAVAscript/master.js" charset="utf-8"></script>
+	<script src="../JAVAscript/Home-page.js" charset="utf-8"></script>
+	<!-- <script src="../JAVAscript/json.js" charset="utf-8"></script> -->
+	<script src="../JAVAscript/shoppingCart.js" charset="utf-8"></script>
+
+
+</head>
+<body>
+<!-- wrapper-header -->
+
+<!-- wrapper-header  顶部条 end -->
+    <div class="wrapper-header"><!-- wrapper-header -->
+    	<div class="header-bar">
+			<div class="home-page fl">
+				<a href="http://www.boy.com/duanjianxin/index.0.0.html">阳光海淘首页</a>
+			</div>
+			<!-- 右边选择条 -->
+			<div class="selecTion-bar fr">
+					<div class="loginbar fl">
+						<span class="welcome fl">您好,欢迎来到阳光海淘</span>
+						<div class="login fl"><a href="http://www.boy.com/duanjianxin/html/signIn.html">请登录</a></div>
+						<div class="regsiter fl"><a href="http://www.boy.com/duanjianxin/html/MemberRegistration.html">免费注册</a></div>
+					</div>
+					<div class="myOrder fl">
+						<a href="#">我的订单</a>
+					</div>
+					<div class="collect fl">
+						<a href="#">我的收藏</a>
+						<span class="fr">|</span>
+					</div>
+
+					<div class="attenTion fl">
+						<a href="#">关注我们</a>
+					</div>
+					<div class="service fl">
+						<a href="#">客户服务</a>
+					</div>
+					<div class="support fl">
+						<a href="#">商家支持</a>
+						<span class="fr">|</span>
+					</div>
+					<div class="shopping-cart fl">
+						<a href="#"><p>购物车   </p><span>0</span>  件</a>
+					</div>
+			</div>
+    	</div>
+    </div><!-- wrapper-header   end -->
+
+
+
+
+	<!-- wraper-mainbav 搜索条-->
+		<div class="wraper-mainbav">
+				<div class="mainbav">
+					<div class="logo fl">
+						<a href="http://www.boy.com/duanjianxin/index.0.0.html"><img src="../images/header/logo.png" alt="" /></a>
+					</div>
+					<div class="nav-warp fl">
+						<ul class="nav">
+							<li><a href="#">美妆个护 <div><strong></strong></div></a>
+										<div class="nav-warpShow">
+											<ul class="warpShow-nav1">
+												<li><a href="#">Jacob Hooy 雅歌布 </a></li>
+												<li><a href="#">Avene 雅 漾</a></li>
+												<li><a href="#">Montagne Jeunesse</a></li>
+												<li><a href="#">Nuxe 欧树</a></li>
+												<li><a href="#">Caudalie 欧缇丽</a></li>
+												<li><a href="#">Balea 芭乐雅</a></li>
+												<li><a href="#">Bioderma 贝德玛</a></li>
+												<li><a href="#">Mustela 妙思乐</a></li>
+											</ul>
+											<ul class="warpShow-nav2">
+												<li><a href="#">美妆个护</a></li>
+												<li><a href="#">面部护肤</a></li>
+												<li><a href="#">身体洗护</a></li>
+												<li><a href="#">洗发护发</a></li>
+												<li><a href="#">口腔护理</a></li>
+												<li><a href="#">手足护理</a></li>
+											</ul>
+									</div>
+							</li>
+							<li><a href="#">奶粉 <div><strong></strong></div></a>
+										<div class="nav-warpShow">
+											<ul class="warpShow-nav1">
+												<li><a href="#">品牌</a></li>
+												<li><a href="#">Aptamil 爱他美</a></li>
+												<li><a href="#">Nutrilon 荷兰牛栏</a></li>
+												<li><a href="#">Enfamil美赞臣</a></li>
+												<li><a href="#">Karicare可瑞康</a></li>
+												<li><a href="#">Herobaby美素</a></li>
+												<li><a href="#">Hipp喜宝</a></li>
+												<li><a href="#">Earth Mama地球妈妈</a></li>
+											</ul>
+											<ul class="warpShow-nav2">
+												<li><a href="#">段数</a></li>
+												<li><a href="#">pre段</a></li>
+												<li><a href="#">1段</a></li>
+												<li><a href="#">2段</a></li>
+												<li><a href="#">3段</a></li>
+												<li><a href="#">4段</a></li>
+											</ul>
+									</div>
+							</li>
+							<li><a href="#">极速税仓 <div><strong></strong></div></a>
+										<div class="nav-warpShow">
+											<ul class="warpShow-nav1">
+												<li><a href="#">美妆个护</a></li>
+												<li><a href="#">洗护系列</a></li>
+												<li><a href="#">身体护理</a></li>
+												<li><a href="#">私密用品</a></li>
+												<li><a href="#">美颜护肤</a></li>
+											</ul>
+											<ul class="warpShow-nav2">
+												<li><a href="#">KAO 花王</a></li>
+												<li><a href="#">California Baby 加州宝宝</a></li>
+												<li><a href="#">Mustela 妙思乐</a></li>
+												<li><a href="#">Pigeon 贝亲</a></li>
+												<li><a href="#">Sana 豆乳</a></li>
+												<li><a href="#">Weleda 维蕾德</a></li>
+											</ul>
+									</div>
+							</li>
+							<li><a href="#">海外直邮 <div><strong></strong></div></a>
+											<div class="nav-warpShow">
+											<ul class="warpShow-nav1">
+												<li><a href="#">Jacob Hooy 雅歌布</a></li>
+												<li><a href="#">Avene 雅 漾</a></li>
+												<li><a href="#">Montagne Jeunesse</a></li>
+												<li><a href="#">Nuxe 欧树</a></li>
+												<li><a href="#">Caudalie 欧缇丽</a></li>
+												<li><a href="#">Balea 芭乐雅</a></li>
+												<li><a href="#">Bioderma 贝德玛</a></li>
+												<li><a href="#">Mustela 妙思乐</a></li>
+											</ul>
+											<ul class="warpShow-nav2">
+												<li><a href="#">美妆个护</a></li>
+												<li><a href="#">面部护肤</a></li>
+												<li><a href="#">身体洗护</a></li>
+												<li><a href="#">洗发护发</a></li>
+												<li><a href="#">口腔护理</a></li>
+												<li><a href="#">手足护理</a></li>
+											</ul>
+									</div>
+							</li>
+						</ul>
+
+					</div>
+					<div class="searchBar fr">
+						<form class="searchform" action="#" method="post">
+								<input type="text" name="name" value="" placeholder="输入关键字" class="search fl">
+								<input type="submit" name="name" value="" class="searchBtn fr">
+						</form>
+					</div>
+				</div>
+		</div>
+	<!-- wraper-mainbav 搜索条  end -->
+
+
+
+
+
+
+
+<!-- wraper-shoppingCart 主内容  开始-->
+
+	<div class="warp-shoppingCart">
+		<table class="shoppingTable">
+			<thead>
+				<tr>
+					<th class="tabtext" width="400">商品信息</th>
+					<th class="tabtext" width="120">税费</th>
+					<th class="tabtext" width="120">单价</th>
+					<th class="tabtext" width="120">数量</th>
+					<th class="tabtext" width="120">重量(g)</th>
+					<th class="tabtext" width="170">商品小计</th>
+					<th class="tabtext" width="120">操作</th>
+				</tr>
+			</thead>
+			<tbody id="tbodydoad">
+
+			<!-- ====================动态加载============================== -->
+
+
+
+
+				<!-- ================================================== -->
+
+			</tbody>
+			<tr >
+				<td colspan="8" class="tbody2td">
+						<div class="settlementBox">
+							<p>合计（不含运费，不含税）：<em>￥</em><span></	span>
+							</p>
+							<button type="">去结算</button>
+						</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+<!-- wraper-shoppingCart 主内容  end-->
+
+
+
+
+
+
+
+
+
+
+<!-- wraper-footer 尾部  开始-->
+<div class="wraper-footer" id="wraper-footer">
+		<div class="footer-box">
+			<div class="footer">
+				<dl class="footer-shopping ">
+					<dt><h2>购物指南</h2></dt>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">订单跟踪</a></dd>
+					<dd><a href="#">实名认证</a></dd>
+					<dd><a href="#">海淘攻略</a></dd>
+				</dl>
+				<dl class="footer-shopping ">
+					<dt><h2>购物指南</h2></dt>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">订单跟踪</a></dd>
+					<dd><a href="#">实名认证</a></dd>
+					<dd><a href="#">海淘攻略</a></dd>
+				</dl>
+				<dl class="footer-shopping ">
+					<dt><h2>购物指南</h2></dt>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">订单跟踪</a></dd>
+					<dd><a href="#">实名认证</a></dd>
+					<dd><a href="#">海淘攻略</a></dd>
+				</dl>
+				<dl class="footer-shopping ">
+					<dt><h2>购物指南</h2></dt>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">订单跟踪</a></dd>
+					<dd><a href="#">实名认证</a></dd>
+					<dd><a href="#">海淘攻略</a></dd>
+				</dl>
+				<dl class="footer-shopping ">
+					<dt><h2>购物指南</h2></dt>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">订单跟踪</a></dd>
+					<dd><a href="#">实名认证</a></dd>
+					<dd><a href="#">海淘攻略</a></dd>
+				</dl>
+				<div class="footer-weixin fr">
+						<div class="footer-weixin-sys">
+								<div class="weixin-sys-f1 fl">
+									<p>官方认证微博</p>
+									<img src="../images/footer/sunny-weibo.jpg" alt="" />
+								</div>
+								<div class="weixin-sys-f2 fr">
+									<p>官方认证微博</p>
+									<img src="../images/footer/sunny-weibo.jpg" alt="" />
+								</div>
+						</div>
+						<p class="weixin-bootom-text">
+							扫一扫，享优惠，每天推送纯干货！
+						</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bootom">
+				<div class="no1bar">
+					<a href="#"> 友情链接 </a>|
+					<a href="#"> 友情链接 </a>|
+					<a href="#"> 友情链接 </a>|
+					<a href="#"> 友情链接 </a>|
+					<a href="#"> 友情链接 </a>|
+					<a href="#"> 友情链接 </a>
+				</div>
+				<br>
+				<div class="no2bar">
+					京ICP备13002026号-1  食品流通许可证编号：SP3308001510007506
+				</div>
+				<div class="no3bar">
+					copyright© 2006-2015 中外运电子商务有限公司  版权所有
+				</div>
+		</div>
+</div>
+<!-- wraper-footer 尾部  end-->
+
+
+<!--  右边固定栏-->
+<!--  右边固定栏-->
+<div class="right-fixed">
+	<div class="sidebar-wrap">
+			<div class="side-member">
+				<div class="HumanIcon"></div>
+				<div class="car-fixed-right">
+					<a href="#" class="carcar"></a>
+					<div class="number-car">0</div>
+					<p>购<br>物<br>车</p>
+				</div>
+				<div class="t-wrap">
+					<div class="side-favorite">
+						<a href="#"></a>
+					</div>
+					<div class="side-history">
+						<a href="#"></a>
+					</div>
+					<div class="side-news">
+						<a href="#"></a>
+					</div>
+				</div>
+			</div>
+			<!-- 下半部分 -->
+			<div class="sidebar-bottom">
+				<div class="side-kefu">
+					<a href="#"></a>
+				</div>
+				<div class="side-ewm">
+					<a href="#"></a>
+				</div>
+				<div class="side-up">
+					<a href="#"></a>
+				</div>
+			</div>
+	</div>
+</div>
+<!--  右边固定栏 end-->
+<!--  右边固定栏 end-->
+
+
+
+
+</body>
+</html>

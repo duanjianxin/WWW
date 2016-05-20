@@ -1,0 +1,357 @@
+
+.wraperCommodity-content{min-height: 700px;
+	/*border: 1px solid red;*/
+}
+.wraperCommodity-content:after{display:block; visibility:hidden;clear:both; overflow:hidden;height:0;content:"."; }
+
+.wraperCommodity{width: 1200px;height:16px;line-height: 16px;margin: 16px auto;    color: #999; }
+.wraperCommodity span a{ color: #999;}
+/*<!-- 商品信息 -->*/
+.commodityInformation{
+	width: 1200px;
+	height: 461px;
+	/*border: 1px solid #AE58C5;*/
+	margin: 0 auto;
+}
+/*商品放大镜盒子*/
+.informationBox
+{
+    float: left;
+
+    width: 489px;
+    height: 402px;
+   /*border: 1px solid #3AA78E;*/
+
+}
+
+#leftbox{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	float: left;
+}
+#leftimg
+{
+    width: 400px;
+    height: 400px;
+}
+#leftbox #ball
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+	display: none;
+    width: 200px;
+    height: 200px;
+
+    background: rgba(0,225,225,.4);
+}
+#leftimg
+{
+    width: 400px;
+    height: 400px;
+}
+#rightbox
+{
+    position: absolute;
+
+    display: none;
+    float: left;
+    overflow: hidden;
+
+    width: 400px;
+    height: 400px;
+    left:862px;
+    top: 140px;
+}
+#rightimg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+/*<!-- 放大镜边上四个小图 -->*/
+.informationBox-ul{
+	width: 75px;
+	height: 324px;
+	/*border: 1px solid #CB2929;*/
+}
+.informationBox-ul ul li{
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    margin: 0px 0px 6px 0px;
+    border: 1px solid #eeeeee;
+}
+.informationBox-ul ul li img{
+	display: block;
+	width: 71px;
+	height: 71px;
+
+}
+
+
+
+/*<!-- 放大镜图 -->*/
+.magnifier{
+	width: 400px;
+	height: 400px;
+	/*border: 1px solid #182299;*/
+	float: right;
+}
+
+
+/*<!-- 放大镜图 end -->*/
+
+
+/*<!-- 右边商品信息 -->*/
+
+.information-right{
+	width: 690px;
+	height: 411px;
+	/*border: 1px solid #CB1818;*/
+	float: right;
+}
+.information-right-title0{
+	    font-weight: 400;
+    width: 680px;
+    word-wrap: break-word;
+    font-size: 18px;
+    color: #333333;
+    padding-bottom: 14px;
+    line-height: 18px;
+}
+.information-right-title1{
+	 text-decoration: underline;
+    padding-bottom: 10px;
+        line-height: 13px;
+    height: 13px;
+    font-size: 12px;
+}
+.information-right-title2{
+	color: rgb(245,52,64);
+    margin-left: 10px;
+    display: block;
+    height: 24px;
+}
+.information-right-title3{
+	    margin-left: 10px;
+    color: #9a9a9a;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+    border-bottom: dotted 1px #cccccc;
+    padding-bottom: 10px;
+}
+
+
+
+
+/*商品价格*/
+.information-price{
+	width: 680px;
+	height: 187px;
+	/*border: 1px solid #3C77C1;*/
+	padding-left: 10px;
+	margin-top: 10px;
+
+}
+.information-price ul{
+	border-bottom: 1px dotted  #CCCCCC;
+}
+.information-price-text1 em{
+	    font-size: 14px;
+    color: #000000;
+    font-weight: 100;
+}
+.information-price-text1 em strong{
+	  top: 0;
+    font-size: 24px;
+    color: rgb(242,53,64);
+}
+.information-price-text2{
+	line-height: 30px;
+}
+/*商品价格 end*/
+
+
+
+/*加减数量*/
+
+.information-number{
+	width: 770px;
+	height: 25px;
+	float: left;
+	margin-top: 20px;
+}
+.information-number span{
+		float: left;
+
+}
+.information-number-plus{
+	width: 21px;
+	height: 22px;
+	float: left;
+	background: url(../images/commodityInformation/pro-substract-icon.png) no-repeat center;
+	border: 1px solid #ccc;
+}
+.information-number-center{
+	width: 30px;
+	height: 22px;
+	border: 1px solid #ccc;
+	float: left;
+	text-align: center;
+	line-height: 22px;
+}
+.information-number-reduce{
+	width: 21px;
+	height: 22px;
+	float: left;
+	background: url(../images/commodityInformation/pro-plus-icon.png) no-repeat center;
+	border: 1px solid #ccc;
+}
+/*加减数量 end*/
+/*购买 加入购物车*/
+.information-purchase-ss{
+	width: 180px;
+	height: 40px;
+	font-size: 16px;
+	background: #FB383B;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.information-purchase-ss a{
+	color: #fff;
+}
+.information-purchase-ss button{
+	color: #fff;
+	border: none;
+	width: 180px;
+	height: 40px;
+	font-size: 16px;
+	background: #FB383B;
+}
+/*购买 加入购物车 end*/
+/*<!-- 右边商品信息 end-->*/
+
+
+.warp-detailsbox{
+	width: 1200px;
+	min-height: 500px;
+	margin: 0 auto;
+	/*background:yellow;*/
+	margin-top: 50px;
+}
+.warp-detailsbox:after{display:block; visibility:hidden;clear:both; overflow:hidden;height:0;content:"."; }
+
+
+.warp-detailsbox-left{
+	width: 200px;
+	height: 1047px;
+	float: left;
+	/*padding: 10px 5px;*/
+	/*border: 1px solid #F5F5F5;*/
+}
+
+
+.warp-detailsbox-right{
+	margin-left: 30px;
+	width: 970px;
+	min-height: 500px;
+	/*background: blue;*/
+	float: left;
+}
+/*.warp-detailsbox-right:after{display:block; visibility:hidden;clear:both; overflow:hidden;height:0;content:"."; }
+*/
+.warp-detailsbox-left-top{
+	width: 200px;
+	height: 34px;
+	background: #F5F5F5;
+	text-align: center;
+	line-height: 34px;
+}
+.warp-detailsbox-left-center{
+	width: 188px;
+	height: 496px;
+	padding: 10px 5px;
+	border: 1px solid #f5f5f5;
+}
+.detailsbox-left-center-box1{
+	width: 170px;
+	height: 248px;
+	margin: 3px auto 0;
+	/*border: 1px solid #000000;*/
+}
+.detailsbox-left-center-box1-img{
+	width: 170px;
+	height: 196px;
+	margin-right: 10px;
+	background: red;
+
+}
+.detailsbox-left-center-box1-img img{
+	width: 170px;
+	height: 196px;
+}
+.detailsbox-left-center-box1-text1{
+	width: 170px;
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.detailsbox-left-center-box1-text1 a{
+    white-space: nowrap;
+    color: #666666;
+}
+.detailsbox-left-center-box1-text2{
+	text-align: center;
+}
+
+.detailsbox-right-top{
+	display: block;
+	width: 820px;
+	height: 34px;
+	background: #F5F5F5;
+}
+.detailsbox-right-top li{
+	width: 90px;
+	height: 34px;
+	border-right: none;
+	padding-right: 1px;
+	float: left;
+	text-align: center;line-height: 34px;
+	background: url(../images/commodityInformation/table-theader-line.png) no-repeat right;
+}
+.detailsbox-right-top li a{
+	display: block;
+	width: 90px;
+	height: 34px;
+	color: #661166;
+    font-weight: 700;
+}
+.detailsbox-right-top-li1{
+	border-top: 3px solid #661166;
+	height: 87px;
+}
+
+.detailsbox-right-imgbox{
+	float: left;
+}

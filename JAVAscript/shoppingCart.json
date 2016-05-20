@@ -1,0 +1,37 @@
+{
+	"shopping":[
+
+		{"id":"0",
+
+		"title":"【海外直邮】荷兰Hero Baby美素婴儿本土奶粉5段（2岁以上）700g*2盒 包邮",
+
+		"src":"../images/commodityInformation/box1.jpg",
+
+		"taxation":"0.00",
+
+		"univalent":"219",
+
+		"number":"1",
+
+		"weight":"800g",
+
+		"subtotal":"219"
+	},
+	{"id":"1",
+
+		"title":"德国Weleda维蕾德无氟儿童牙膏(可吞可食用) 50ml",
+
+		"src":"../images/commodityInformation/box2.jpg",
+
+		"taxation":"3.39",
+
+		"univalent":"33",
+
+		"number":"1",
+
+		"weight":"100g",
+
+		"subtotal":"33"
+	}
+	]
+}

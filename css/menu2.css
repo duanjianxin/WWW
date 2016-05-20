@@ -1,0 +1,209 @@
+/*二级菜单内容盒子,高度自动撑开*/
+.wraper-menu2:after{content:"."; display:block; height:0;clear:both; overflow:hidden;visibility:hidden;}
+.wraper-menu2{
+    width: 1200px;
+    min-height: 500px;
+    margin: 10px auto 40px;
+}
+/*二级菜单内容盒子,高度自动撑开 end*/
+
+/*内容盒子*/
+.wraper-menu2Box{
+    width: 1200px;
+    min-height: 500px;
+
+
+}
+/*内容盒子 end*/
+
+/*内容头部*/
+.menu2Box-title{
+    width: 1200px;
+    height: 25px;
+    padding-bottom: 11px;
+    margin-top: 16px;
+}
+.menu2Box-title div{
+    width: 1200px;
+    height: 25px;
+}
+.menu2Box-title div span{
+    line-height: 25px;
+}
+
+.menu2Box-conter{
+    width: 1200px;
+    height: 1892px;
+
+    /*border: 1px solid red;*/
+}
+
+
+/*表单*/
+    #meun2Box-top-form{
+        width: 1200px;
+        height: 227px;
+        border: 1px solid #D1CCC7;
+    }
+.top-form-div1,.top-form-div2,.top-form-div3,.top-form-div4,.top-form-div5{
+    width: 1200px;
+    /*background: yellow;*/
+    height: 37px;
+    border-bottom: 1px solid #eaeaea;
+}
+.top-form-leftBar{
+    width: 90px;
+    height: 27px;
+    text-align: center;
+    color: #333333;
+    padding-top: 10px;
+    background: #F6F6F6;
+    float: left;
+    border-bottom: 1px solid #EAEAEA;
+}
+.top-form-conterBar{
+    width: 1107px;
+    height: 30px;
+    padding-top: 6px;
+    border-left: 1px solid #eaeaea;
+    float: left;
+    /*background: blue;*/
+}
+.top-form-div6 .top-form-leftBar{
+        border-bottom: 1px solid  #D1CCC7;
+}
+
+
+
+
+
+.form-conter-ul{
+    width: 990px;
+    height: 30px;
+    margin-left: 20px;
+
+}
+.form-conter-ul li{
+    float: left;
+    height: 22px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    /*background: red;*/
+}
+.form-conter-ul li a{
+    display: inline-block;
+    height: 20px;
+    padding: 1px 20px 1px 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #6C6C6C;
+}
+/*表单* end/
+/*固定条*/
+.meun2Box-fixedBar{
+    margin-top: 26px;
+    height: 44px;
+    width: 1200px;
+    background: #F5F5F5;
+}
+/*固定条end*/
+/*商品框*/
+.menu2Box-conterframe{
+    width: 1200px;
+    height: 1480px;
+    margin-top: 16px;
+    /*border:1px solid blue;*/
+}
+
+/*商品框end*/
+.menu2Box-conterframe ul{
+    width: 1200px;
+}
+/*商品*/
+.menu2Box-conterframe ul li{
+    width: 230px;
+    height: 360px;
+    border: 5px solid #ffffff;
+    float: left;
+}
+/*li下面图片盒子*/
+.conterframeImgbox{
+    width: 230px;
+    height: 234px;
+    position: relative;
+}
+.conterframeImgbox a img{
+    width: 230px;
+    height: 230px;
+}
+/*文字盒子*/
+.conterframeTextbox{
+    width: 231px;
+    height: 78px;
+    /*background: red;*/
+}
+.conterframeText1{
+    width: 205px;
+    height: 30px;
+    padding-top: 5px;
+    margin: 3px 13px 20px 13px;
+    float: left;
+    text-align: left;
+}
+.conterframeText1 h3{
+        height: 30px;
+        overflow: hidden;
+        margin: 0;
+        line-height: 15px;
+        width: 205px;
+        height: 30px;
+}
+.conterframeText1 span{
+        color: #EA0000;
+        line-height: 15px;
+        font-weight: normal;
+        text-align: left;
+        font-size: 12px;
+}
+.conterframeText1 h3 a{
+        color: #333;
+        line-height: 15px;
+        text-align: left;
+}
+.conterframeText2{
+    width: 195px;
+    height: 20px;
+    margin: 0 13px;
+    position: relative;
+
+}
+.conterframeText2-1{
+    float: left;
+    color: #f43441;
+    font-weight: 700;
+    display: block;
+    float: left;
+}
+.conterframeText2-2{
+    float: left;
+    color: #f43441;
+    font-weight: 700;
+    display: block;
+    float: left;
+    line-height: 30px;
+
+}
+.conterframeBotton{
+    width: 75px;
+    height: 23px;
+    background: #F43441;
+    bottom: -100px;
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+.conterframeBotton span{
+    color: #ffffff;
+    line-height: 23px;
+}
+/*商品end*/
